@@ -1,0 +1,101 @@
+﻿#wrapper {
+    width: 98%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    width: 50%;
+}
+
+#nav {
+    background: #cb3d3b;
+    width: 600px;
+    height: 250px;
+}
+
+#nav #n_left {
+    width: 23%;
+    vertical-align: bottom;
+}
+
+#nav #n_right {
+    width: 77%;
+    vertical-align: bottom;
+}
+
+#content {
+    vertical-align: top;
+}
+
+#c_left, #c_right {
+    width: 23%;
+    text-align: center;
+}
+
+#c_left div, #c_right div, #c_center div {
+    margin: 0px auto 20px auto;
+    width: 90%;
+    height: 180px;
+    background: #f0f0f0;    
+    border-radius: 10px;
+}
+
+#c_center {
+}
+
+#c_center div {
+    width: 100%;
+    height: auto;
+}
+
+#c_center table a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#c_center table a:hover {
+    opacity: 0.5;
+}
+
+#c_center table #c_inside {
+    font: italic 14px calibri;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+#c_center table #c_inside #top {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#c_center table #c_inside #bottom {
+    height: 100%;
+    width: 100%;
+}
+
+#c_center #in_left,
+#c_center #in_right,
+#c_center #in_center {
+    width: 33%;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer span {
+    position: relative;
+    top: -25px;
+}
